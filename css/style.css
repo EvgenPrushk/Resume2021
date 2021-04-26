@@ -1,6 +1,10 @@
+.container {
+  display: flex;
+}
 .aside {
   background-color: #2b5a84;
   color: #ffffff;
+  flex: 0 0 500px;
   max-width: 500px;
   padding: 65px;
   width: 100%;
@@ -112,17 +116,46 @@
     display: flex;
     list-style-type: none;
     text-decoration: none;
+    justify-content: center;
 }
 
 .social__list-item {
     margin-bottom: 0 5px;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .social__list-link {
     align-items: center;
-    background-color: #ffffff;
     background-color: #2b5a84;
+    color: #ffffff;
     display: flex;
     justify-content: center;
+}
+
+.main {
+  padding: 65px 50px;
+}
+
+.main__item {
+  margin-bottom: 100px;
+}
+
+.main__item:last-child {
+  margin-bottom: 0;
+}
+
+.main__item-title {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 35px;
+}
+
+.main__row {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.main__row-val {
+  flex: 0 0 150px;
+  width: 150px;
 }

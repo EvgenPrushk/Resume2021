@@ -1,161 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <title>Resume Evgen Prushak</title>
-</head>
+  </head>
 
-<body>
-    <aside class="aside">
-
+  <body>
+    <div class="container">
+      <aside class="aside">
         <div class="user">
-            <div class="user__img">
-                <img src="./images/CV.jpg" alt="photo resume">
-            </div>
-            <span class="user__name">Evgen Prushak</span>
-            <span class="user__work">Javascript Developer</span>
+          <div class="user__img">
+            <img src="./images/CV.jpg" alt="photo resume" />
+          </div>
+          <span class="user__name">Evgen Prushak</span>
+          <span class="user__work">Javascript Developer</span>
         </div>
 
         <div class="aside__item">
-            <div class="aside__item-header">
-                <i class="fas fa-bullseye fa-2x"></i>
-                <span class="aside__item-title">Objective</span>
-            </div>
-            <div class="aside__item-body">
-                <p class="aside__item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                    Ipsum.
-                </p>
-            </div>
-
+          <div class="aside__item-header">
+            <i class="fas fa-bullseye fa-2x"></i>
+            <span class="aside__item-title">Objective</span>
+          </div>
+          <div class="aside__item-body">
+            <p class="aside__item-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
         </div>
 
         <div class="aside__item">
+          <div class="aside__item-header">
+            <i class="fas fa-info-circle fa-2x"></i>
+            <span class="aside__item-title">General info</span>
+          </div>
+          <div class="aside__item-body">
+            <div class="aside__subitem">
+              <span class="aside__subitem-title"> Personal</span>
+              <ul class="aside__list">
+                <li class="aside__list-item">Nationality: Belarus</li>
+                <li class="aside__list-item">Date of Birth: 19 Feb 1987</li>
+                <li class="aside__list-item">Place of Birth: Minsk</li>
+              </ul>
+            </div>
+
+            <div class="aside__subitem">
+              <span class="aside__subitem-title"> Interest</span>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-laptop-code"></i>
+                  <span class="aside__interest-text">Programming</span>
+                </div>
+                <div class="aside__col">
+                  <i class="fas fa-plane-departure"></i>
+                  <span class="aside__interest-text">Traveling</span>
+                </div>
+              </div>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-brain"></i>
+                  <span class="aside__interest-text">Psychology</span>
+                </div>
+                <div class="aside__col">
+                  <i class="fas fa-chess"></i>
+                  <span class="aside__interest-text">Chess and checkers</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="aside__item">
             <div class="aside__item-header">
-                <i class="fas fa-info-circle fa-2x"></i>
-                <span class="aside__item-title">General info</span>
+              <i class="fas fa-id-card fa-2x"></i>
+              <span class="aside__item-title">For contact</span>
             </div>
             <div class="aside__item-body">
-                <div class="aside__subitem">
-                    <span class="aside__subitem-title"> Personal</span>
-                    <ul class="aside__list">
-                        <li class="aside__list-item">Nationality: Belarus</li>
-                        <li class="aside__list-item">Date of Birth: 19 Feb 1987</li>
-                        <li class="aside__list-item">Place of Birth: Minsk</li>
-                    </ul>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-city"></i>
+                  <a
+                    class="aside__interest-text"
+                    href="https://goo.gl/maps/LZELLdHGMUgoZui89"
+                    target="_blank"
+                    title="map"
+                    >Minsk, Ecenina 39-204</a
+                  >
                 </div>
-
-                <div class="aside__subitem">
-                    <span class="aside__subitem-title"> Interest</span>
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-laptop-code"></i>
-                            <span class="aside__interest-text">Programming</span>
-                        </div>
-                        <div class="aside__col">
-                            <i class="fas fa-plane-departure"></i>
-                            <span class="aside__interest-text">Traveling</span>
-                        </div>
-                    </div>
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-brain"></i>
-                            <span class="aside__interest-text">Psychology</span>
-                        </div>
-                        <div class="aside__col">
-                            <i class="fas fa-chess"></i>
-                            <span class="aside__interest-text">Chess and checkers</span>
-                        </div>
-                    </div>
+              </div>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-phone"></i>
+                  <a
+                    class="aside__interest-text"
+                    href="tel:+375 (029) 222 22 73"
+                    target="_blank"
+                    title="phone"
+                    >8 029 222 22 73</a
+                  >
                 </div>
+              </div>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-phone"></i>
+                  <a
+                    class="aside__interest-text"
+                    href="tel:+375 (044) 796 02 24"
+                    target="_blank"
+                    title="phone"
+                    >8 044 796 02 24</a
+                  >
+                </div>
+              </div>
+              <div class="aside__row">
+                <div class="aside__col">
+                  <i class="fas fa-envelope"></i>
+                  <a
+                    class="aside__interest-text"
+                    href="mailto:ogmprushak@mail.ru"
+                    target="_blank"
+                    title="e-mail"
+                    >ogmprushak@mail.ru</a
+                  >
+                </div>
+              </div>
             </div>
+          </div>
 
+          <div class="socials">
+            <ul class="social__list">
+              <li class="social__list-item">
+                <a
+                  class="social__list-link"
+                  href="https://github.com/EvgenPrushk"
+                  target="_blank"
+                  title="icon github"
+                >
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </li>
+              <ul class="social__list-item">
+                <a
+                  class="social__list-link"
+                  href="https://www.linkedin.com/in/evgen-prushak-631025a0/"
+                  target="_blank"
+                  title="icon linkedin"
+                >
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </ul>
+              <ul class="social__list-item">
+                <a
+                  class="social__list-link"
+                  href="https://join.skype.com/invite/NCyEwOIpMKqL"
+                  target="_blank"
+                  title="icon linkedin"
+                >
+                  <i class="fab fa-skype fa-2x"></i>
+                </a>
+              </ul>
 
+              <ul class="social__list-item">
+                <a
+                  class="social__list-link"
+                  href="viber://chat?number=%2B375292222273"
+                  target="_blank"
+                  title="icon linkedin"
+                >
+                  <i class="fab fa-viber fa-2x"></i>
+                </a>
+              </ul>
+              <ul class="social__list-item">
+                <a
+                  class="social__list-link"
+                  href="https://m.vk.com/evgenprushak"
+                  target="_blank"
+                  title="icon vk"
+                >
+                  <i class="fab fa-vk fa-2x"></i>
+                </a>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </aside>
 
-            <div class="aside__item">
-                <div class="aside__item-header">
-                    <i class="fas fa-id-card fa-2x"></i>
-                    <span class="aside__item-title">For contact</span>
+      <main class="main">
+        <div class="main__item">
+          <span class="main__item-title">Javascript developer Skill</span>
+          <div class="main__item-body">
+            <p class="main__item-text"></p>
+            <ul class="skills">
+              <li class="skills__item">
+                <div class="skills__item-val">
+                  <span>Javascript</span>
                 </div>
-                <div class="aside__item-body">
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-city"></i>
-                            <a class="aside__interest-text" href="https://goo.gl/maps/LZELLdHGMUgoZui89" target="_blank" title="map">Minsk, Ecenina 39-204</a>
-                        </div>
-                    </div>
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-phone"></i>
-                            <a class="aside__interest-text" href="tel:+375 (029) 222 22 73" target="_blank"
-                                title="phone">8 029 222 22 73</a>
-                        </div>
-                    </div>
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-phone"></i>
-                            <a class="aside__interest-text" href="tel:+375 (044) 796 02 24" target="_blank"
-                                title="phone">8 044 796 02 24</a>
-                        </div>
-                    </div>
-                    <div class="aside__row">
-                        <div class="aside__col">
-                            <i class="fas fa-envelope"></i>
-                            <a class="aside__interest-text" href="mailto:ogmprushak@mail.ru" target="_blank"
-                                title="e-mail">ogmprushak@mail.ru</a>
-                        </div>
-                    </div>
+                <div class="skills__item-key">
+                  <div class="skills__line skills__line-70"></div>
+                  <span class="skills__line-number">70</span>
                 </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__item-val">
+                  <span>HTML</span>
+                </div>
+                <div class="skills__item-key">
+                  <div class="skills__line skills__line-70"></div>
+                  <span class="skills__line-number">70</span>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__item-val">
+                  <span>HTML</span>
+                </div>
+                <div class="skills__item-key">
+                  <div class="skills__line skills__line-70"></div>
+                  <span class="skills__line-number">70</span>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__item-val">
+                  <span>HTML</span>
+                </div>
+                <div class="skills__item-key">
+                  <div class="skills__line skills__line-70"></div>
+                  <span class="skills__line-number">70</span>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__item-val">
+                  <span>HTML</span>
+                </div>
+                <div class="skills__item-key">
+                  <div class="skills__line skills__line-70"></div>
+                  <span class="skills__line-number">70</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+        <div class="main__item">
+          <span class="main__item-title">Experiance</span>
+          <div class="main__item-body">
+            <div class="main__row">
+              <div class="main__row-val">
+                <span>July 2011 - Present</span>
+              </div>
+              <div class="main__row-key">
+                <span
+                  >OJSC “MMW named after S. I. Vavilov - the managing company of
+                  BelOMO holding”</span
+                >
+                <span>Engineer, Lead Engineer</span>
+              </div>
+
+              <div class="main__row">
+                <div class="main__row-val">
+                  <span>July 2009 - May 2011</span>
+                </div>
+                <div class="main__row-key">
+                  <span> Shop vsebuki.by</span>
+                  <span>Partner</span>
+                </div>
+              </div>
+
+              <div class="main__row">
+                <div class="main__row-val">
+                  <span>April 2017 - Present</span>
+                </div>
+                <div class="main__row-key">
+                  <span> Tourist agency</span>
+                  <span>Partner</span>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="socials">
-                <ul class="social__list">
-                    <li class="social__list-item">
-                        <a class="social__list-link" href="https://github.com/EvgenPrushk" target="_blank"
-                            title="icon github">
-                            <i class="fab fa-github fa-2x"></i>
-                        </a>
-                    </li>
-                    <ul class="social__list-item">
-                        <a class="social__list-link" href="https://www.linkedin.com/in/evgen-prushak-631025a0/"
-                            target="_blank" title="icon linkedin">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </ul>
-                    <ul class="social__list-item">
-                        <a class="social__list-link" href="https://join.skype.com/invite/NCyEwOIpMKqL" target="_blank"
-                            title="icon linkedin">
-                            <i class="fab fa-skype fa-2x"></i>
-                        </a>
-                    </ul>
-                    <ul class="social__list-item">
-                        <a class="social__list-link" href="https://join.skype.com/invite/NCyEwOIpMKqL" target="_blank"
-                            title="icon linkedin">
-                            <i class="fab fa-skype fa-2x"></i>
-                        </a>
-                    </ul>
-
-
-
-                </ul>
-            </div>
-
-
-    </aside>
-
-
-
-</body>
-
+        <div class="main__item">
+          <span class="main__item-title"></span>
+          <div class="main__item-body">
+            <ul class="portfolio__list">
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+              <li class="portfolio__list-item">
+                <a href="" class="portfolio__list-link"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
