@@ -6,12 +6,12 @@
   color: #ffffff;
   flex: 0 0 500px;
   max-width: 500px;
-  padding: 65px;
+  padding: 30px;
   width: 100%;
 }
 
 .aside__item {
-  margin-bottom: 95px;
+  margin-bottom: 55px;
 }
 
 .aside__item:last-child {
@@ -151,11 +151,40 @@
 }
 
 .main__row {
-  display: flex;
+  /* display: flex; */
   margin-bottom: 35px;
 }
 
 .main__row-val {
   flex: 0 0 150px;
-  width: 150px;
+  max-width: 180px;
 }
+.main__wrapper {
+  font-size: 1.2rem;
+  padding: 30px;
+
+}
+
+.skills__item {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+border: 1px solid black;
+}
+
+.skills__item-val {
+ 
+}
+
+
+
+
+
+.portfolio__list-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 35px;
+  display: flex;
+  font-size: 1.2rem;
+}
+
